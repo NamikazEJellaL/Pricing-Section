@@ -1,0 +1,123 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    width: 100%;
+    font-family: DM Sans;
+    position: absolute;
+
+}
+
+.switch-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    position: relative;
+
+}
+
+.Margin-change {
+    margin: 0 10px;
+}
+
+
+.discountArrow {
+    color: #1d4fd9;
+    position: absolute;
+    right: 22%;
+    top: 13%;
+
+}
+
+.discountArrow .saveText {
+    top: 10px;
+}
+
+.left {
+    text-align: right;
+}
+
+
+.price {
+    font-size: 56px;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.cardData {
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.main {
+    text-align: center;
+}
+
+.buttonToChange{
+    margin: 0;
+    padding: 12px;
+    background-color: white;
+    border: 2px #8ea7ea solid;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.cardData2{
+    font-size: 16px;
+    font-family: Manrope;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.cardData3{
+    color: #A0ABBB;
+    font-size: 16px;
+    font-family: Manrope;
+    font-weight: 500;
+    word-wrap: break-word;
+
+}
+
+.linear {
+    background: linear-gradient(to right, #55CBFB, #1D4ED8);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.card :hover {
+    background-color: #1d4fd9;
+    color: white;
+
+}
+
+.card :hover .cardData3{
+    background-color: #1d4fd9;
+    color: white;
+
+}
+
+.card img {
+    background-color: #e8edfb;
+    border-radius: 100px;
+    padding: 2px;
+}
